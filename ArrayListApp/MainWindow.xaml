@@ -1,0 +1,18 @@
+﻿<Window x:Class="ArrayListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ArrayListApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtBox" HorizontalAlignment="Left" Height="151" Margin="57,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="659" TextChanged="TextBox_TextChanged" AcceptsTab="True" AcceptsReturn="True"/>
+        <StackPanel HorizontalAlignment="Left" Height="77" Margin="237,189,0,0" VerticalAlignment="Top" Width="286" Orientation="Horizontal">
+            <Button x:Name="addBottom" Content="Add" HorizontalAlignment="Left" Height="36" VerticalAlignment="Top" Width="76" Click="addBottom_Click" Margin="10,0"/>
+            <Button x:Name="removeBottom" Content="Remove" HorizontalAlignment="Left" Height="36" VerticalAlignment="Top" Width="76" Click="removeBottom_Click" Margin="10,0"/>
+            <Button x:Name="showBottom" Content="Show" HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" Height="36" Click="showBottom_Click" Margin="10,0"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
